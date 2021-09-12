@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var n string
 func main() {
-	fmt.Print("Hello World")
+	n = "Hello World"
+	fmt.Print(n)
 }
